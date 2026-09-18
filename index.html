@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт на Python</title>
+</head>
+<body>
+    <h1>Привет! Это мой сайт!</h1>
+    <!-- Вот эта строчка вставляет вашу картинку из папки static -->
+    <img src="{{ url_for('static', filename='my_image.jpg') }}" alt="Моя красивая картинка" width="500">
+</body>
+</html>
